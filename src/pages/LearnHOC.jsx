@@ -9,7 +9,7 @@ function LearnHOC(Component) {
       margin: "1rem",
       backgroundColor: "blue",
     };
-    const obj = {name:"name", age:"age"};
+    // const obj = {name:"name", age:"age"};
     return <Component style={style} {...props} />;
   };
 }
